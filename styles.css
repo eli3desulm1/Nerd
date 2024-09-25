@@ -1,0 +1,62 @@
+body {
+   color: white;
+   background: black;
+   margin: 0px;
+}
+
+header {
+   border-bottom: solid 2px rgb(225, 0, 1);
+   padding: 20px;
+   font-size: 32px;
+   color: rgb(250, 0, 50);
+   font-family: "Bungee Tint", sans-serif;
+}
+
+section {
+   background: blue;
+   padding-top: 80PX;
+   padding-bottom: 80px;
+   display: flex;
+   justify-content: center;
+}
+
+.chamanda-texto {
+   margin-right: 5%;
+}
+
+h1 {
+   font-size: 40px;
+}
+
+p1 {
+   font-size: 20px;
+}
+
+img {
+   height: 200px;
+}
+
+.videos {
+   display: flex;
+   overflow-x: auto;
+   gap: 15px;
+}
+
+.video {
+   background: black;
+   padding-left: 20px;
+   padding-right: 20px;
+   margin: 50px;
+}
+
+.videos img {
+opacity:0.5 ;
+height: 200px; 
+}
+.videos img:hover {
+opacity:1 ;
+border: 1px solid green;
+}
+h2{
+   color: red;
+}
